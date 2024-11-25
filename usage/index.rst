@@ -33,7 +33,8 @@ the machine (including shell access, file transfer and graphics).
 
    Please use an SSH client and **not** X2GO the first time you ever log in to
    Bede, or immediately after a password reset. Your MFA token will be
-   generated, but X2GO will not show it to you.
+   generated, but X2GO will not show it to you. Kitty's ssh module will also
+   not show the initial MFA token and should not be used during the first log in.
 
 The login nodes are shared between all users of the service and
 therefore should only be used for light interactive work, for example:
